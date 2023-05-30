@@ -19,8 +19,7 @@ const OrderCardHistory = ({orderProds, orderTotal}) => {
                                     key={item.prod_id}  
                                 />
                             );
-                        })
-      
+                        })      
                     }
                 </div>
                 <div className='order-card-total'>
