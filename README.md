@@ -39,7 +39,11 @@ To run this application on your PC make sure  you have NODE.js and Postgres inst
 })
 
 11. cd delivery-app-api 
+
 12. npm start
-13. Open one more terminal window and run cd delivery-app.
-14. npm start.
+
+13. Open one more terminal window and run: cd delivery-app. 
+
+14. npm start. Press 'Y' when it suggests to use another port.
+
 15. Now you can test APP in your browser!!!
