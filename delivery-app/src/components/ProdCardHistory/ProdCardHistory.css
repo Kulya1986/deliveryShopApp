@@ -1,0 +1,46 @@
+.history-product{
+    min-width: 16rem;
+    border: 1px solid var( --dark-lazur);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: var( --light-green);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.history-product-img{
+    width: 60%;
+    padding: .1rem .5rem .1rem;
+}
+
+.history-product-img > img{
+    width: 100%;
+    padding: 1rem;
+}
+
+.history-product-info{
+    padding: 1rem 1rem 1rem;
+}
+
+.history-product-name, .history-product-price, .history-product-quantity {
+    font-family: 'Sophista Belucy Regular', 'Helvetica Neue',
+      sans-serif;
+    font-size: var(--text-small);
+    color: var(--dark-lazur);
+    text-align: center;
+}
+
+.history-product-name{
+    padding-top: 1.5rem;
+    padding-bottom: .1rem;
+}
+.history-product-price{
+    padding-bottom: .1rem;
+}
+
+.history-product-quantity{
+    padding-bottom: 1.5rem;
+}
+
+

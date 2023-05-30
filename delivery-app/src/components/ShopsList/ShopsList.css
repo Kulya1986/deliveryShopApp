@@ -1,0 +1,57 @@
+.shops{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+    justify-items: center;
+    align-items: center;
+    min-width: 18rem;
+    border: 1px solid var( --dark-lazur);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: var( --light-yellow);
+    height: 100%;
+    padding: 2rem;
+}
+
+.shop-button{
+    font-family: 'Sophista Belucy Regular', 'Helvetica Neue',
+      sans-serif;
+    font-size: var(--text-large);
+    border: 1px solid var( --dark-lazur);
+    border-radius: 25px;
+    background-color: var( --lazur);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: var(--light-yellow);
+    text-align: center;
+    padding: .8rem 1rem;
+    width: 12rem;
+}
+
+.zoomed{
+    transition: all .5s ease;
+}
+
+.zoomed:hover{
+    transform: scale(1.15);
+    color:antiquewhite;
+}
+
+.shop-button-selected{
+    border-width: 2px;
+    transform: scale(1.15);
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 10px 20px;
+}
+
+.shop-button:disabled {
+    border: 1px solid var( --light-green);
+    background-color: var( --light-green);
+    cursor: auto;
+    transform: none;
+}
+
+.shop-button:disabled:hover{
+    border: 1px solid var( --light-green);
+    background-color: var( --light-green);
+    cursor: auto;
+}
+

@@ -1,0 +1,7 @@
+/delivery-app/node_modules
+/delivery-app-api/node_modules
+/delivery-app/.pnp
+/delivery-app-api/.pnp
+.pnp.js
+
+.DS_Store

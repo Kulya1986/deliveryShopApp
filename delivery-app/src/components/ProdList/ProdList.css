@@ -1,0 +1,15 @@
+.products-list{
+    border: 1px solid var( --dark-lazur);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: var( --light-yellow);
+    padding: 1rem 1rem;
+    display: grid;
+    grid-template-columns:  repeat(3, minmax(17rem, 1fr));
+    gap: .5rem;
+    overflow: scroll;
+    justify-items: center;
+    align-items: center;
+    font-size: var(--text-large);
+    color: var(--dark-lazur);
+}

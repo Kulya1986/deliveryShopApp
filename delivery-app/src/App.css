@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'Sophista Belucy Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Sophista Belucy Regular'), url('SophistaBelucy-Wy6JV.woff') format('woff');
+  }
+
+  :root{
+      --text-xlarge: 3rem;
+      --text-large: 1.8rem;
+      --text-regular: 1.3rem;
+      --text-small: 1rem;
+      --light-yellow: #baccaa;
+      --light-green: #a7c49f;
+      --green: #419961;
+      --lazur: #095e5a;
+      --dark-lazur: #01282e;
+  }
+
+  body {
+    font-family: 'Sophista Belucy Regular', 'Helvetica Neue',
+      sans-serif;
+      background: url(./background.png)no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover; 
+      height: 100vh;
+      width: 100vw;
+  }
+
+
+  

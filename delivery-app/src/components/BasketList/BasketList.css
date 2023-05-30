@@ -1,0 +1,18 @@
+.basket-list{
+    height: 70vh;
+    width: 60%;
+    border: 1px solid var( --dark-lazur);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: var( --light-yellow);
+    padding: 1rem 2rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: .5rem;
+    overflow: scroll;
+    justify-items: center;
+    align-items: center;
+    margin: .5rem;
+    font-size: var(--text-large);
+    color: var(--dark-lazur);
+}

@@ -1,0 +1,64 @@
+.cart-product{
+    width: 100%;
+    min-width: 20rem;
+    border: 1px solid var( --dark-lazur);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: var( --light-green);
+    /* height: auto; */
+    display: flex;
+    justify-content: space-around;
+    /* align-content: center; */
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.cart-product-img{
+    width: 40%;
+    padding: 1rem 1rem 1rem;
+}
+
+.cart-product-img > img{
+    width: 100%;
+    padding: 1rem 2rem;
+}
+
+.cart-product-info{
+    padding: 1rem 1rem 1rem;
+}
+
+.cart-product-name, .cart-product-price{
+    font-family: 'Sophista Belucy Regular', 'Helvetica Neue',
+      sans-serif;
+    font-size: var(--text-regular);
+    color: var(--dark-lazur);
+    text-align: center;
+}
+
+.cart-product-name{
+    padding-top: 1.5rem;
+    padding-bottom: .1rem;
+}
+.cart-product-price{
+    padding-bottom: 3rem;
+}
+
+.cart-product-quantity{
+    padding-bottom: 1.5rem;
+}
+
+.quantity-input{
+    font-family: 'Sophista Belucy Regular', 'Helvetica Neue',
+    sans-serif;
+    font-size: var(--text-regular);
+    border: 1px solid var( --dark-lazur);
+    border-radius: 3px;
+    color: var(--dark-lazur);
+    padding: .5rem .5rem;
+}
+
+.cart-product-remove{
+    font-size: var(--text-large);
+    color: red;
+    padding: 1rem 2rem;
+}
+
