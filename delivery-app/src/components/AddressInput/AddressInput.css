@@ -1,0 +1,9 @@
+.address-input{
+    width: 100%;
+    display: block;
+    margin: 0rem auto;
+    color: var(--dark-lazur);
+    font-size: var(--text-regular);
+    font-family: 'Sophista Belucy Regular', 'Helvetica Neue',
+      sans-serif;
+}

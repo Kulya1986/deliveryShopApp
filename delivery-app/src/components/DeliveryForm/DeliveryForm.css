@@ -1,16 +1,17 @@
 .delivery-form{
-    height: 70vh;
+    height: 80vh;
     width: 40%;
+    min-width: 420px;
     border: 1px solid var( --dark-lazur);
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     background-color: var( --light-yellow);
     color: var(--dark-lazur);
     font-size: var(--text-regular);
-    padding: 1rem 2rem;
+    padding: 1rem 1.5rem;
     display: grid;
     grid-template-columns: 1fr;
-    gap: 1.5rem;
+    gap: 1rem;
     justify-items: center;
     align-items: center;
     margin: .5rem;
@@ -18,7 +19,7 @@
 
 .form-input{
     width: 100%;
-    margin: .5rem auto;
+    margin: .2rem auto;
 }
 
 .del-form-input{
@@ -34,3 +35,4 @@
     font-family: 'Sophista Belucy Regular', 'Helvetica Neue',
       sans-serif;
 }
+

@@ -6,6 +6,14 @@ import React, { Component } from 'react';
 
 class ShoppingCart extends Component{
 
+    // componentDidMount () {
+    //     const script = document.createElement("script");
+    //     const googleLibraryURL="https://maps.googleapis.com/maps/api/js?key="+REACT_APP_GOOGLE_MAP_API_KEY+"&region=UA&libraries=places&callback=initMap"
+    //     script.src = googleLibraryURL;
+    //     script.async = true;
+    //     document.body.appendChild(script);
+    // }
+
     onQuantityChange = (newQuantity, prod_id) => {
         this.props.shoppingCart.forEach(item => {
             if(item.prod_id===prod_id){
@@ -42,9 +50,12 @@ class ShoppingCart extends Component{
     }
   
     render(){
+       
         return(
             <main className="shopping-cart">
+                
                 <div className='cart-container'>
+                    
                     <DeliveryForm 
                         onEmailChange={this.props.onEmailChange}
                         onPhoneChange={this.props.onPhoneChange}

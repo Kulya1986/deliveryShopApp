@@ -58,10 +58,13 @@ onNameChange = (event) => {
   this.setState(Object.assign(this.state.customerInfo,{customer_name:event.target.value}))
 }
 
-onAddressChange = (event) => {
-  this.setState(Object.assign(this.state.customerInfo,{customer_address:event.target.value}))
-}
+// onAddressChange = (event) => {
+//   this.setState(Object.assign(this.state.customerInfo,{customer_address:event.target.value}))
+// }
 
+onAddressChange = (place) => {
+  this.setState(Object.assign(this.state.customerInfo,{customer_address:place}))
+}
 
 cartTotalChange=(newTotal) => {
   this.setState({cartTotal:newTotal});
@@ -149,7 +152,7 @@ onAddToCart = (prod_id, prod_name, prod_price,prod_image, prod_quantity) => {
     } 
 }
 
-  render(){
+render(){
 
     let mainContent;
     if (this.state.route === 'shop')

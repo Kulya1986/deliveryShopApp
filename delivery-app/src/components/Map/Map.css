@@ -1,0 +1,12 @@
+.map{
+    width: 420px;
+    height: 200px;
+}
+
+.marker-label{
+    width: 4rem;
+    height: 3rem;
+    font-size: .6rem;
+    background-color: rgba(186, 204, 170, .3);
+    border-color: var(--dark-lazur);
+}
